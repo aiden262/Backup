@@ -31,13 +31,6 @@ DOMAIN-SUFFIX,channel4.com
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-DOMAIN,d1xfray82862hr.cloudfront.net
-DOMAIN,d22qjgkvxw22r6.cloudfront.net
-DOMAIN,d25xi40x97liuc.cloudfront.net
-DOMAIN,d27xxe7juh1us6.cloudfront.net
-DOMAIN,d3196yreox78o9.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,ktpx.amazon.com
 DOMAIN-SUFFIX,aboutamazon.com
 DOMAIN-SUFFIX,aiv-cdn.net
@@ -87,9 +80,6 @@ DOMAIN-SUFFIX,gamer.com.tw
 # DAZN
 USER-AGENT,DAZN*
 DOMAIN-KEYWORD,voddazn
-DOMAIN,d151l6v8er5bdm.cloudfront.net
-DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
-DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
@@ -162,7 +152,6 @@ DOMAIN-KEYWORD,hbogoasia
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
-DOMAIN,dai3fd1oh325y.cloudfront.net
 DOMAIN,hboasia1-i.akamaihd.net
 DOMAIN,hboasia2-i.akamaihd.net
 DOMAIN,hboasia3-i.akamaihd.net
@@ -244,14 +233,11 @@ DOMAIN-SUFFIX,litv.tv
 # LineTV
 USER-AGENT,LINE%20TV*
 USER-AGENT,LINE*
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,profile.line-scdn.net
 
 # My5
 USER-AGENT,My5*
-DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,my5.tv
 
@@ -409,13 +395,7 @@ PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
 DOMAIN,api.viu.now.com
-DOMAIN,d1k2us671qcoau.cloudfront.net
-DOMAIN,d2anahhhmp1ffz.cloudfront.net
-DOMAIN,dfp6rglgjqszk.cloudfront.net
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
-DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
-DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
 DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
