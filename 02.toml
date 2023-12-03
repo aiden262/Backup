@@ -31,5 +31,5 @@ lazy = true
 
 
 [[rulesets]]
-group = "🚀 节点选择"
-ruleset = "https://raw.githubusercontent.com/aiden262/Backup/main/proxy.list"
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN"
