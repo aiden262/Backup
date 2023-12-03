@@ -51,3 +51,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaM
 [[rulesets]]
 group = "DIRECT"
 ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "[]FINAL"
