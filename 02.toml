@@ -31,5 +31,5 @@ lazy = true
 
 
 [[rulesets]]
-group = "🎯 全球直连"
+group = "DIRECT"
 ruleset = "[]GEOIP,CN"
