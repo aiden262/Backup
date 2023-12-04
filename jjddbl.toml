@@ -1,0 +1,49 @@
+version = 1
+[custom]
+enable_rule_generator = true
+overwrite_original_rules = true
+
+[[custom_groups]]
+name = "🚀 节点选择"
+type = "select"
+rule = ["[]♻️ 自动选择", ".*", "[]DIRECT"]
+
+[[custom_groups]]
+name = "♻️ 自动选择"
+type = "load-balance"
+rule = [".*"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+strategy = "round-robin"
+
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "https://raw.githubusercontent.com/aiden262/Backup/main/proxy.list"
+
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "[]FINAL"
