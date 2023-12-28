@@ -21,7 +21,7 @@ lazy = true
 [[custom_groups]]
 name = "🇺🇸 美国节点"
 type = "url-test"
-rule = ["(【US】|美)"]
+rule = ["(【US】CF|【US】GCORE|美)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 600
 tolerance = 60
