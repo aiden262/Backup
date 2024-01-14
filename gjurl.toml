@@ -63,6 +63,10 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaM
 
 [[rulesets]]
 group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/aiden262/Backup/main/direct.list"
+
+[[rulesets]]
+group = "DIRECT"
 ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
