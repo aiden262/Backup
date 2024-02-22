@@ -47,7 +47,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyM
 
 [[rulesets]]
 group = "🚀 节点选择"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+ruleset = "https://raw.githubusercontent.com/aiden262/Backup/main/ProxyLite.list"
 
 [[rulesets]]
 group = "DIRECT"
