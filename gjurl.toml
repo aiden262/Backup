@@ -6,7 +6,7 @@ overwrite_original_rules = true
 [[custom_groups]]
 name = "🚀 节点选择"
 type = "select"
-rule = ["[]🇸🇬 新加坡节点", "[]🇺🇸 美国节点", "[]🇭🇰 香港节点", ".*", "[]DIRECT"]
+rule = ["[]🇸🇬 新加坡节点", "[]🇺🇸 美国节点", "[]🇭🇰 香港节点", "[]🇫🇷 法国节点", ".*", "[]DIRECT"]
 
 [[custom_groups]]
 name = "🇸🇬 新加坡节点"
@@ -32,6 +32,15 @@ lazy = true
 name = "🇭🇰 香港节点"
 type = "url-test"
 rule = ["(【HK】|港)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 600
+tolerance = 60
+lazy = true
+
+[[custom_groups]]
+name = "🇫🇷 法国节点"
+type = "url-test"
+rule = ["(【FR】|法)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 600
 tolerance = 60
