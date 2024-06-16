@@ -22,10 +22,10 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,mypikpak.com
 DOMAIN-KEYWORD,notion
-DOMAIN-SUFFIX,livednow.com,Proxy
-DOMAIN-SUFFIX,4gtv.tv,Proxy
-DOMAIN-SUFFIX,hinet.net,Proxy
-DOMAIN-SUFFIX,ofiii.com,Proxy
-DOMAIN-SUFFIX,googlevideo.com,Proxy
-DOMAIN-SUFFIX,youtube.com,Proxy
-DOMAIN-SUFFIX,mytvsuper.com,Proxy
+DOMAIN-SUFFIX,livednow.com
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,ofiii.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,mytvsuper.com
