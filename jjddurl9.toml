@@ -9,12 +9,12 @@ type = "select"
 rule = [".*", "[]DIRECT"]
 
 [[custom_groups]]
-name = "谷歌照片备份"
+name = "📷 谷歌照片备份"
 type = "select"
 rule = ["^(?!.*CFT).*"]
 
 [[rulesets]]
-group = "谷歌照片备份"
+group = "📷 谷歌照片备份"
 ruleset = "https://raw.githubusercontent.com/aiden262/Backup/main/gp.list"
 
 [[rulesets]]
