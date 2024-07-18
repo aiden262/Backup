@@ -11,7 +11,7 @@ rule = [".*", "[]DIRECT"]
 [[custom_groups]]
 name = "谷歌照片备份"
 type = "select"
-rule = ["((?!CFT).)*$"]
+rule = ["^(?!.*CFT).*"]
 
 [[rulesets]]
 group = "谷歌照片备份"
