@@ -14,7 +14,7 @@ type = "url-test"
 rule = [".*"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
-tolerance = 80
+tolerance = 50
 lazy = true
 
 
